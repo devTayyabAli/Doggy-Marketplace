@@ -1,0 +1,112 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .sale_card_main{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #1D1E20 !important;
+    outline: 1px solid transparent;
+    transition: all .25s ease-in-out;
+    min-width: 14rem;
+  }
+
+  .card_content span {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #fff;
+    white-space: nowrap;
+    /* margin-bottom: .75rem; */
+
+    /* border-bottom: 1px solid #fff; */
+
+  }
+
+  .main_heading {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+    color-scheme: dark;
+    color: #fffffff2;
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+
+
+  .card_sold{
+    background-color: #ffffff12;
+    color: #cacaca;
+    width: 100%;
+    font-weight: 800;
+    border-radius: 12px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border: none;
+    outline: none; 
+    margin-top: 10px;
+  }
+
+
+  .main_sale_slider {
+    padding: 40px 20px ;
+  }
+  .card_content{
+    padding: 0.75rem ;
+    height: 100%;
+    /* display: flex; */
+    flex-direction: column;
+    white-space: nowrap;
+  }
+
+  .dog_pic {
+    width: 20px !important;
+  }
+
+  .usd_value{
+    font-size: .9rem;
+    color: #fffc;
+  }
+
+  .vaule_co {
+    /* line-height: 1.5; */
+    /* color-scheme: dark; */
+    color: #fffffff2;
+    border-top: 1px solid rgba(255,255,255,.1);
+    padding: 0.25rem 0;
+  }
+
+  .card_number{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 12px;
+    color: #fff;
+    background-color: #0000006b;
+    padding: 0 0.5rem;
+    font-weight: 600;
+    font-size: .9rem;
+    pointer-events: none;
+  }

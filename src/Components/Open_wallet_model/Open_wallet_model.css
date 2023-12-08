@@ -1,0 +1,57 @@
+.modal-content{
+    font-size: inherit;
+    background-color: #ffffff1a;
+    color: #fff;
+    -webkit-backdrop-filter: blur(42px);
+    backdrop-filter: blur(42px);
+    border-radius: 12px;
+    /* width: min(400px,100vw - 1.5rem); */
+    min-height: 20rem;
+    max-height: 30rem;
+    overflow-y: auto;
+    display: flex;
+}
+
+.mdh {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.create_wallet {
+    width: 100%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    color: #000;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    /* background-color: #1a1a1a; */
+    border: none;
+    outline: none;
+    transition: all .2s ease-in-out;
+
+}
+
+.import_wallet {
+    width: 100%;
+    background-color: #dbbdf9;
+    color: #8000ff;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    /* background-color: #1a1a1a; */
+    border: none;
+    outline: none;
+    transition: all .2s ease-in-out;
+}

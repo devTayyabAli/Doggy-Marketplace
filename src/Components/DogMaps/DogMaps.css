@@ -1,0 +1,134 @@
+.main_dog_maps {
+    padding: 40px 35px;
+}
+
+.dogmap_content {
+
+    line-height: 1.5;
+    /* color-scheme: dark; */
+    color: #fffffff2;
+}
+
+.floor_pric {
+    line-height: 1.5;
+    /* color-scheme: dark; */
+    color: #fffffff2;
+    font-weight: 700;
+}
+
+.hot_badge {
+    font-weight: 700;
+    display: inline-block;
+    background-color: #ffffff14;
+    border-radius: 12px;
+    padding: 0.3rem 0.6rem;
+    color: #fffffff2;
+    white-space: nowrap;
+}
+
+.dog_map_cards{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.inner_dog_card{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #4c505c33;
+    outline: 1px solid transparent;
+    transition: all .25s ease-in-out;
+    padding:15px 10px ;
+}
+
+.org_wid{
+    width: 110px !important;
+}
+
+.dog_bout{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    color: #fffffff2;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.seller {
+    color: #fffffff2;
+
+}
+
+.dog_numbers{
+    font-weight: 500;
+    color: #c891ff;
+    text-decoration: inherit;
+    cursor: pointer;
+}
+
+.dog_buy_lower{
+    margin-top: 0.4rem;
+    border-top: 1px solid rgba(255,255,255,.1);
+    padding: 0.5rem 0;
+}
+
+.price_dog 
+{
+    color: #fffffff2;
+
+
+}
+
+.buy_btn button{
+    width: 100%;
+    font-weight: 800;
+    color: #9c63fa;
+    border: none;
+    transition: all .25s ease-in-out;
+    background-color: #e6d8fe;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+.org_widd {
+    width: 91px ;
+}
+
+
+.text_dog_card{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #fbb9fb !important;
+}
+
+.text_dog_card p {
+    text-align: center;
+    padding: 0.75rem;
+}
+
+
+
+@media only screen and (max-width:999px){
+    .dog_map_cards{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .hot_badge{
+        white-space: pre-wrap;
+    }
+
+    .main_dog_maps{
+        padding: 40px 12px;
+    }
+}

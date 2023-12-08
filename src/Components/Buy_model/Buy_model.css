@@ -1,0 +1,29 @@
+.buy_dg {
+
+    color: #e6d8fe !important;
+}
+
+.bgg_dgg {
+    border-radius: 12px;
+    background-color: #00000080;
+    padding: 0.5rem;
+}
+
+
+.unlock_wallet {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    background-color: #1a1a1a;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    margin-top: 1rem;
+}
+
+.buyyy_text {
+    white-space: nowrap;
+}

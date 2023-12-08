@@ -1,0 +1,70 @@
+body{
+    background-color: #121212;
+}
+
+
+.logo_main_wid {
+    width: 100px;
+}
+.logo_main_wid img {
+    width: 100%;
+}
+
+
+.main_header {
+    padding: 20px ;
+    display: flex;
+    gap: 10px;
+}
+
+
+.main_input_header{
+    background-color: #ffffff1f;
+    color: #fff;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    transition: background-color .2s cubic-bezier(.05,0,.2,1) 0s,border-color .2s cubic-bezier(.05,0,.2,1) 0s;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    display: flex;
+    width: 900px ;
+    line-height: 26px;
+    padding: 0.5em;
+    cursor: text;
+}
+
+.Open_wallte_btn {
+    background-color: #ffffff1f;
+    color: #fff;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    transition: background-color .2s cubic-bezier(.05,0,.2,1) 0s,border-color .2s cubic-bezier(.05,0,.2,1) 0s;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    display: flex;
+    line-height: 26px;
+    padding: 0.5em;
+    cursor: text;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+.main_header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+@media only screen and (max-width:600px){
+    .main_input_header {
+        width: 120px;
+    }
+
+}
+
+@media only screen and (min-width:601px) and (max-width:1100px){
+    .main_input_header {
+        width: 500px;
+    } 
+}
