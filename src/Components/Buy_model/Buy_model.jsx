@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import Modal from "react-bootstrap/Modal";
 import "./Buy_model.css";
 import org from "../Assets/org.png";
 import dog from "../Assets/dog.svg"
+import { MyContext } from "../../MyContext";
 
 export default function Buy_model(props) {
+  const { setModalShow2,modalShow2,setModalShow,modalShow } = useContext(MyContext);
   return (
     <div>
       <Modal
@@ -30,7 +32,7 @@ export default function Buy_model(props) {
                 <div className="col-md-12 text-center">
                 <div className="d-flex gap-2 justify-content-between">
 
-              
+
                 <div className="text-white buyyy_text">Taker fee (2.8%):</div>
                 <div className="buyyy_text">
                     <img src={dog} className="dog_pic me-2" alt="" />
@@ -45,7 +47,7 @@ export default function Buy_model(props) {
                 <div className="col-md-12 text-center">
                 <div className="d-flex gap-2 justify-content-between">
 
-              
+
                 <div className="text-white buyyy_text">Network fee:</div>
                 <div className="buyyy_text">
                     <img src={dog} className="dog_pic me-2" alt="" />
@@ -60,7 +62,7 @@ export default function Buy_model(props) {
                 <div className="col-md-12 text-center">
                 <div className="d-flex gap-2 justify-content-between">
 
-              
+
                 <div className="text-white buyyy_text">Total:</div>
                 <div className="buyyy_text">
                     <img src={dog} className="dog_pic me-2" alt="" />
@@ -75,7 +77,7 @@ export default function Buy_model(props) {
                 <div className="col-md-12 text-center">
                 <div className="d-flex gap-2 justify-content-between">
 
-              
+
                 <div className="text-white buyyy_text">Available balance:</div>
                 <div className="buyyy_text">
                     <img src={dog} className="dog_pic me-2" alt="" />
@@ -89,7 +91,7 @@ export default function Buy_model(props) {
             </div>
           </div>
           <div>
-            <button className="unlock_wallet">Unlock your wallet to buy</button>
+            <button className="unlock_wallet" onClick={()=>(setModalShow(true),props.onHide())}>Unlock your wallet to buy</button>
             {/* <button className="import_wallet">Import wallet</button> */}
           </div>
         </Modal.Body>
